@@ -42,7 +42,7 @@ public class BotJob implements Job {
 
             client.sendRequest(new InstagramUploadPhotoRequest(
                     new File("test.jpg"),
-                    "Damn, hate that guy"));
+                    "Damn, love that guy"));
             System.gc();
 
         } catch (Exception e) {
@@ -60,7 +60,7 @@ public class BotJob implements Job {
 
         Stream.of(arr).forEach(System.out::println);
 
-        String s1 = "fuck";
+        String s1 = "hey";
         final String s2;
         StringBuilder s3 = new StringBuilder("");
 
